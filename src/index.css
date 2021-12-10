@@ -1,13 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(90deg, #426377, #ceff5c);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  background: none;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.circle {
+  height: 10rem;
+  width: 10rem;
+  margin: 0 auto;
+  background: rgb(180, 179, 179);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.bt {
+  display: block;
+  width: 10rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 37px;
+  background-color: black;
+  color: white;
+}
+
+p {
+  text-align: center;
+  margin-top: 1rem;
+  background: none;
+  padding: 1rem;
+}
+
+.lightgrey {
+  background: rgb(208, 98, 36);
+}
+
+.lightgreen {
+  background: grey;
+}
+
+.lightred {
+  background: rgb(233, 200, 145);
+}
+
+.odd {
+  background: rgb(162, 205, 205);
+}
+
+.even {
+  background: #db3d13;
 }
